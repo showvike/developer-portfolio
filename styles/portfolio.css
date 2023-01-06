@@ -17,7 +17,7 @@ section {
   background-image: url("../images/header_bg.png"),
     url("../images/developer.png");
   background-repeat: no-repeat;
-  background-position: right bottom, 23px 0;
+  background-position: right bottom, 23px 38px;
 }
 
 /* header navigation styles */
@@ -25,7 +25,7 @@ section {
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 50px 200px;
+  padding: 50px 200px;
 }
 
 .nav-title {
@@ -53,6 +53,18 @@ nav li {
   font-size: 20px;
   color: #ffffff;
   padding: 18px 35px;
+}
+
+.btn-outline {
+  height: 64px;
+  border-radius: 5px;
+  background-color: inherit;
+  border: 1px solid #fd6e0a;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fd6e0a;
+  padding: 18px 35px;
+  margin-left: 25px;
 }
 
 /* header banner styles */
@@ -200,4 +212,33 @@ main {
 .btn-div {
   text-align: center;
   margin-top: 50px;
+}
+
+.contact {
+  background-color: #fff8f3;
+  display: flex;
+  gap: 100px;
+  padding: 130px 200px;
+}
+
+.contact .section-title {
+  text-align: left;
+}
+
+.contact .description {
+  margin-bottom: 30px;
+}
+
+.social a {
+  margin-right: 30px;
+}
+
+.form input[type="text"],
+input[type="email"],
+textarea {
+  height: 64px;
+  width: 100%;
+  padding: 18px 30px;
+  border: 0;
+  margin-bottom: 24px;
 }
